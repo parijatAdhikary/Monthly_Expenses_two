@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlertDialogCustomReverse" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorAccent</item> <!-- Change colorAccent to your desired color -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/AlertDialogNegativeButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/AlertDialogPositiveButton</item>
+    </style>
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorAccent</item> <!-- Change colorAccent to your desired color -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/AlertDialogPositiveButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/AlertDialogNegativeButton</item>
+    </style>
+
+    <style name="AlertDialogPositiveButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/green_color</item> <!-- Change positiveButtonColor to your desired color -->
+    </style>
+
+    <style name="AlertDialogNegativeButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/red_color</item> <!-- Change negativeButtonColor to your desired color -->
+    </style>
+</resources>
